@@ -21,3 +21,4 @@ test = reg.predict(x_test) # Testing the model by using the splitted test Data
 print(test)
 
 print(reg.predict([[26]]))
+print(reg.score(x_test, y_test))
